@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 9af01e397aba9fb40a0c9fcc765ed46e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armor_Mesh01
+    100002: Armor_Mesh02
+    100004: Bags_Mesh
+    100006: Bags_Mini_Mesh
+    100008: Body_Mesh
+    100010: Calf_L
+    100012: Calf_R
+    100014: Clavicle_L
+    100016: Clavicle_R
+    100018: Foot_L
+    100020: Foot_R
+    100022: Hand_L
+    100024: Hand_R
+    100026: Head
+    100028: Head01_Mesh
+    100030: Head02_Mesh
+    100032: Head03_Mesh
+    100034: Head04_Mesh
+    100036: Head05_Mesh
+    100038: Head06_Mesh
+    100040: Head07_Mesh
+    100042: Head08_Mesh
+    100044: Head_End
+    100046: Index_01_L
+    100048: Index_01_R
+    100050: Index_02_L
+    100052: Index_02_R
+    100054: Index_03_L
+    100056: Index_03_R
+    100058: Index_End_L
+    100060: Index_End_R
+    100062: lowerarm_l
+    100064: lowerarm_R
+    100066: Middle_01_L
+    100068: Middle_01_R
+    100070: Middle_02_L
+    100072: Middle_02_R
+    100074: Middle_03_L
+    100076: Middle_03_R
+    100078: Middle_End_L
+    100080: Middle_End_R
+    100082: Neck_01
+    100084: Pelvis
+    100086: Pinky_01_L
+    100088: Pinky_01_R
+    100090: Pinky_02_L
+    100092: Pinky_02_R
+    100094: Pinky_03_L
+    100096: Pinky_03_R
+    100098: Pinky_End_L
+    100100: Pinky_End_R
+    100102: Point_Root
+    100104: Ring_01_L
+    100106: Ring_01_R
+    100108: Ring_02_L
+    100110: Ring_02_R
+    100112: Ring_03_L
+    100114: Ring_03_R
+    100116: Ring_End_L
+    100118: Ring_End_R
+    100120: Root
+    100122: Spine_01
+    100124: Spine_02
+    100126: Spine_03
+    100128: Thigh_L
+    100130: Thigh_R
+    100132: Thumb_01_L
+    100134: Thumb_01_R
+    100136: Thumb_02_L
+    100138: Thumb_02_R
+    100140: Thumb_03_L
+    100142: Thumb_03_R
+    100144: Thumb_End_L
+    100146: Thumb_End_R
+    100148: Toe_ L
+    100150: Toe_ R
+    100152: Toe_End_ L
+    100154: Toe_End_ R
+    100156: UpperArm_L
+    100158: UpperArm_R
+    100160: //RootNode
+    400000: Armor_Mesh01
+    400002: Armor_Mesh02
+    400004: Bags_Mesh
+    400006: Bags_Mini_Mesh
+    400008: Body_Mesh
+    400010: Calf_L
+    400012: Calf_R
+    400014: Clavicle_L
+    400016: Clavicle_R
+    400018: Foot_L
+    400020: Foot_R
+    400022: Hand_L
+    400024: Hand_R
+    400026: Head
+    400028: Head01_Mesh
+    400030: Head02_Mesh
+    400032: Head03_Mesh
+    400034: Head04_Mesh
+    400036: Head05_Mesh
+    400038: Head06_Mesh
+    400040: Head07_Mesh
+    400042: Head08_Mesh
+    400044: Head_End
+    400046: Index_01_L
+    400048: Index_01_R
+    400050: Index_02_L
+    400052: Index_02_R
+    400054: Index_03_L
+    400056: Index_03_R
+    400058: Index_End_L
+    400060: Index_End_R
+    400062: lowerarm_l
+    400064: lowerarm_R
+    400066: Middle_01_L
+    400068: Middle_01_R
+    400070: Middle_02_L
+    400072: Middle_02_R
+    400074: Middle_03_L
+    400076: Middle_03_R
+    400078: Middle_End_L
+    400080: Middle_End_R
+    400082: Neck_01
+    400084: Pelvis
+    400086: Pinky_01_L
+    400088: Pinky_01_R
+    400090: Pinky_02_L
+    400092: Pinky_02_R
+    400094: Pinky_03_L
+    400096: Pinky_03_R
+    400098: Pinky_End_L
+    400100: Pinky_End_R
+    400102: Point_Root
+    400104: Ring_01_L
+    400106: Ring_01_R
+    400108: Ring_02_L
+    400110: Ring_02_R
+    400112: Ring_03_L
+    400114: Ring_03_R
+    400116: Ring_End_L
+    400118: Ring_End_R
+    400120: Root
+    400122: Spine_01
+    400124: Spine_02
+    400126: Spine_03
+    400128: Thigh_L
+    400130: Thigh_R
+    400132: Thumb_01_L
+    400134: Thumb_01_R
+    400136: Thumb_02_L
+    400138: Thumb_02_R
+    400140: Thumb_03_L
+    400142: Thumb_03_R
+    400144: Thumb_End_L
+    400146: Thumb_End_R
+    400148: Toe_ L
+    400150: Toe_ R
+    400152: Toe_End_ L
+    400154: Toe_End_ R
+    400156: UpperArm_L
+    400158: UpperArm_R
+    400160: //RootNode
+    2100000: 09 - Default
+    4300000: Body_Mesh
+    4300002: Bags_Mesh
+    4300004: Armor_Mesh01
+    4300006: Armor_Mesh02
+    4300008: Head01_Mesh
+    4300010: Head02_Mesh
+    4300012: Head03_Mesh
+    4300014: Head04_Mesh
+    4300016: Head05_Mesh
+    4300018: Head07_Mesh
+    4300020: Head08_Mesh
+    4300022: Head06_Mesh
+    4300024: Bags_Mini_Mesh
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Armor_Mesh01
+    13700002: Armor_Mesh02
+    13700004: Bags_Mesh
+    13700006: Bags_Mini_Mesh
+    13700008: Body_Mesh
+    13700010: Head01_Mesh
+    13700012: Head02_Mesh
+    13700014: Head03_Mesh
+    13700016: Head04_Mesh
+    13700018: Head05_Mesh
+    13700020: Head06_Mesh
+    13700022: Head07_Mesh
+    13700024: Head08_Mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 479
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
