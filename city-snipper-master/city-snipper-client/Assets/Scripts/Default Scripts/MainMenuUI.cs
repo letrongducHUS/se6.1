@@ -102,13 +102,7 @@ public class MainMenuUI : MonoBehaviour
         Watch3DoBjectsCamera.SetActive(true);
         AudioListener.pause = false;
         Time.timeScale = 1;
-        Preferences.Instance.RateUs++;
-        Debug.Log(Preferences.Instance.RateUs);
-        if (Preferences.Instance.RateUs % 8 == 0)
-        {
-            print("in rateus");
-            // rate_Us_Panel.SetActive(true);  
-        }
+
 
         if (PlayerPrefs.GetInt("DailyBonusMultiplePanel") == 1)
         {
@@ -640,19 +634,13 @@ public class MainMenuUI : MonoBehaviour
         PlaySound();
         //StoreInventory.BuyItem(GameObject.FindObjectOfType<SoomlaFoo>().purchaseIDs[0]);
     }
-    public void btn_More_Fun()
-    {
-        PlaySound();
-        Application.OpenURL("");
+    //public void btn_rate_Now()
+    //{
+     //   PlaySound();
+    //    Application.OpenURL("");
+//
 
-    }
-    public void btn_rate_Now()
-    {
-        PlaySound();
-        Application.OpenURL("");
-
-
-    }
+   // }
     public void PlaySound()
     {
         srcBtnClick.clip = BtnClickClip;

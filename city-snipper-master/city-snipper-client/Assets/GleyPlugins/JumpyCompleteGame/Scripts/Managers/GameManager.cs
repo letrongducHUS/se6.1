@@ -100,7 +100,7 @@ namespace Jumpy
             SoundLoader.AddMusic("Music");
 
             //Load ads
-            Advertisements.Instance.Initialize();
+            //Advertisements.Instance.Initialize();
 
             //Initialize IAP
             IAPManager.Instance.InitializeIAPManager(InitComplete);
