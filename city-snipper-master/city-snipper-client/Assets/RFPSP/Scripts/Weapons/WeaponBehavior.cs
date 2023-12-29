@@ -5,8 +5,6 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Net;
-using TMPro;
 
 public class WeaponBehavior : MonoBehaviour {
 	[HideInInspector]
@@ -49,7 +47,7 @@ public class WeaponBehavior : MonoBehaviour {
 	private CamAndWeapAnims CamAndWeapAnimsComponent;
 	[HideInInspector]
 	public PlayerCharacter PlayerCharacterComponent;
-
+	
 	
 	[Header ("Inventory and Ammo", order = 0)]
 	[Space (10, order = 1)]
@@ -86,9 +84,8 @@ public class WeaponBehavior : MonoBehaviour {
 	public int bulletsToReload  = 50;
 	[Tooltip("Maximum ammo amount player's inventory can hold for this weapon.")]
 	public int maxAmmo = 999;
-    public TextMeshProUGUI AmmoUi;
-
-    [Header ("Damage and Firing", order = 2)]
+	
+	[Header ("Damage and Firing", order = 2)]
 	[Space (10, order = 3)]
 	[Tooltip("/Damage to inflict on objects with ApplyDamage(); function.")]
 	public int damage  = 10;
@@ -1026,7 +1023,7 @@ public class WeaponBehavior : MonoBehaviour {
         {
             if (NewBullet.gameObject == null)
             {
-				return;
+                return;
             }
             else
             {
@@ -1036,7 +1033,7 @@ public class WeaponBehavior : MonoBehaviour {
                 }
                 else
                 {
-                    //Time.timeScale = 1;
+                    // Time.timeScale = 1;
                 }
                 NewBullet.transform.position = Vector3.MoveTowards(NewBullet.transform.position, directionhitpoint, 20f * Time.deltaTime);
                 timetosmooth++;

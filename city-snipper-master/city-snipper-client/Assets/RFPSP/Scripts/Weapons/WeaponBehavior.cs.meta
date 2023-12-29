@@ -1,54 +1,8 @@
 fileFormatVersion: 2
 guid: def2fb265c6be544a9d5b85b16d3f8d2
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - PlayerModelAnim: {instanceID: 0}
-  - tpPistolAnim: {instanceID: 0}
-  - tpShotgunAnim: {instanceID: 0}
-  - tpBowAnim: {instanceID: 0}
-  - playerObj: {instanceID: 0}
-  - weaponObj: {instanceID: 0}
-  - ammoUiObj: {instanceID: 0}
-  - ammoUiObjShadow: {instanceID: 0}
-  - PlayerWeaponsComponent: {instanceID: 0}
-  - FPSPlayerComponent: {instanceID: 0}
-  - MouseLookComponent: {instanceID: 0}
-  - PlayerCharacterComponent: {instanceID: 0}
-  - weaponDropObj: {instanceID: 0}
-  - weaponMesh: {instanceID: 0}
-  - AnimatorComponent: {instanceID: 0}
-  - WeaponAnimatorComponent: {instanceID: 0}
-  - CameraAnimatorComponent: {instanceID: 0}
-  - shotOrigin: {instanceID: 0}
-  - muzzleFlash: {instanceID: 0}
-  - muzzleLightObj: {instanceID: 0}
-  - TPmuzzleRenderer: {instanceID: 0}
-  - thirdPersonSmokePos: {instanceID: 0}
-  - barrelSmokeParticles: {instanceID: 0}
-  - muzzleSmokeParticles: {instanceID: 0}
-  - ignoreMeshShading: {instanceID: 0}
-  - shellEjectPosition: {instanceID: 0}
-  - shellEjectPositionZoom: {instanceID: 0}
-  - shellEjectPositionTP: {instanceID: 0}
-  - otherfx: {instanceID: 0}
-  - fireSnd: {instanceID: 0}
-  - meleeSnd: {instanceID: 0}
-  - reloadSnd: {instanceID: 0}
-  - reloadLastSnd: {instanceID: 0}
-  - noammoSnd: {instanceID: 0}
-  - readySnd: {instanceID: 0}
-  - pullSnd: {instanceID: 0}
-  - blockSound: {instanceID: 0}
-  - lightBaseObj: {instanceID: 0}
-  - lightConeMesh: {instanceID: 0}
-  - spot: {instanceID: 0}
-  - point: {instanceID: 0}
-  - BulletSpawnPoint: {instanceID: 0}
-  - BulletPrefab: {instanceID: 0}
+  defaultReferences: []
   executionOrder: -4
   icon: {instanceID: 0}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
