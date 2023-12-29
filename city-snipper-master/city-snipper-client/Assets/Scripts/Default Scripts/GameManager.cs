@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
             m24.GetComponent<WeaponBehavior>().haveWeapon = true;
         }
 
-        if (PlayerPrefs.GetInt("vss142") == 1)
+        /*if (PlayerPrefs.GetInt("vss142") == 1)
         {
             vss142.GetComponent<WeaponBehavior>().haveWeapon = true;
         }
@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
         if (PlayerPrefs.GetInt("vss199") == 1)
         {
             vss199.GetComponent<WeaponBehavior>().haveWeapon = true;
-        }
+        }*/
 
 
         //        SabloSdk.Instance.LogScreen("Level : "+Preferences.Instance.Level);

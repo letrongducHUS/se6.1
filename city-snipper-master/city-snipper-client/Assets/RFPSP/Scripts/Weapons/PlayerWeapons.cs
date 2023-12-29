@@ -26,7 +26,7 @@ public class PlayerWeapons : MonoBehaviour {
 	private Animator CameraAnimatorComponent;
 
 	[Tooltip("The weaponOrder index of the first weapon that will be selected when the map loads.")]
-	public int firstWeapon = 0;//the weaponOrder index of the first weapon that will be selected when the map loads
+	public int firstWeapon = 4;//the weaponOrder index of the first weapon that will be selected when the map loads
 	[Tooltip("Maximum number of weapons that the player can carry.")]
 	public int maxWeapons = 10;
 	//backupWeapon is the weaponOrder index number of a weapon like fists, a knife, or sidearm that player will select when all other weapons are dropped
