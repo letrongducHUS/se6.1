@@ -54,6 +54,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
 
   </ItemGroup>
   <ItemGroup>
@@ -438,7 +440,6 @@
     <Compile Include="Assets\GleyPlugins\Localization\Scripts\AllAppTexts.cs" />
     <Compile Include="Assets\GleyPlugins\RateGame\Scripts\VisualScriptingSupport\GameFlowSupport\IncreaseCustomEvents.cs" />
     <Compile Include="Assets\GleyPlugins\CrossPromo\Scripts\VisualScriptingSupport\PlaymakerSupport\AutoLoadAndShow.cs" />
-    <Compile Include="Assets\PrivacyPolicy.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowBanner.cs" />
     <Compile Include="Assets\GleyPlugins\DailyRewards\Scripts\VisiualScriptingSupport\BoltSupport\DailyRewardsBoltSupport.cs" />
     <Compile Include="Assets\GleyPlugins\JumpyCompleteGame\Scripts\Managers\AssetsLoaderManager.cs" />
@@ -483,11 +484,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\DLAA.shader" />
     <None Include="Assets\GleyPlugins\CrossPromo\Scripts\Version.txt" />
     <None Include="Assets\GleyPlugins\GameServices\Scripts\Version.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\GleyPlugins\AllPlatformsSave\Scripts\Version.txt" />
     <None Include="Assets\GleyPlugins\DailyRewards\Scripts\Version.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\VignettingShader.shader" />
@@ -498,10 +502,13 @@
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrectionCurvesSimple.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\SunShaftsComposite.shader" />
     <None Include="Assets\GleyPlugins\RateGame\Scripts\Version.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\GleyPlugins\AllPlatformsSave\Plugins\Metro\UnityWindowsPhonePlugin.dll" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ScreenSpaceAmbientObscurance.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAA3Console.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrectionSelective.shader" />
@@ -511,24 +518,39 @@
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrectionEffect.shader" />
     <None Include="Assets\GleyPlugins\JumpyCompleteGame\Scripts\Version.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\GleyPlugins\CrossPromo\PromoFiles\AppStorePromoFile.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
     <None Include="Assets\GleyPlugins\EasyIAP\Scripts\Version.txt" />
     <None Include="Assets\GleyPlugins\CrossPromo\PromoFiles\GooglePlayPromoFile.txt" />
     <None Include="Assets\GleyPlugins\AllPlatformsSave\Plugins\UnityWindowsPhonePlugin.dll" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ChromaticAberrationShader.shader" />
     <None Include="Assets\GleyPlugins\Notifications\Scripts\Version.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\GleyPlugins\Ads\AdOrderFile\AdOrder.txt" />
     <None Include="Assets\GleyPlugins\Ads\Scripts\Version.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -795,7 +817,6 @@
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
-
     <Reference Include="netstandard">
       <HintPath>D:\Unity\Unity 2022.3.5f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
     </Reference>
