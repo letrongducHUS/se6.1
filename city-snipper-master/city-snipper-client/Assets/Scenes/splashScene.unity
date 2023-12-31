@@ -421,8 +421,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 204, y: 153}
-  m_SizeDelta: {x: 517.7851, y: 232.7968}
+  m_AnchoredPosition: {x: 388, y: 138}
+  m_SizeDelta: {x: 745.972, y: 306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487296605
 MonoBehaviour:
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: tactical shooter
+  m_text: The revenge of John Wick
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 44b5a9875937eca48bdca1d8d81ae55a, type: 2}
   m_sharedMaterial: {fileID: 1053887123590606131, guid: 44b5a9875937eca48bdca1d8d81ae55a,

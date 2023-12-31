@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Net.Security;
 //using Soomla.Store;
 
 
@@ -90,6 +91,7 @@ public class MainMenuUI : MonoBehaviour
     public static MainMenuUI instance;
     public static bool firstLoad = false;
 
+    public GameObject playModePanel;
     void Start()
     {
 
@@ -646,5 +648,10 @@ public class MainMenuUI : MonoBehaviour
         srcBtnClick.clip = BtnClickClip;
         srcBtnClick.Play();
 
+    }
+
+    public void showPlayMode()
+    {
+        playModePanel.SetActive(!playModePanel.activeSelf);
     }
 }
