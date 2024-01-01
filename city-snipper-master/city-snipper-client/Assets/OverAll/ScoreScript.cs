@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class ScoreScript : MonoBehaviour
 {
 
-    // public GameObject Enemy;
+   // public GameObject Enemy;
     public GameObject[] scoreobjects;
     private int curentindex = 0;
     public int score = 0;
     public int currentscore;
 
     public Text textScore;
+
     public GameObject HeadShot;
     public static ScoreScript instance;
     // Start is called before the first frame update
@@ -39,9 +40,7 @@ public class ScoreScript : MonoBehaviour
     public void HeadShots()
     {
         HeadShot.SetActive(true);
-        Statistics.instance.Headshots();
     }
-
 
     public void NewRandomObject()
     {
@@ -74,7 +73,7 @@ public class ScoreScript : MonoBehaviour
 
         currentscore = 0;
 
-
+       
     }
 
 
