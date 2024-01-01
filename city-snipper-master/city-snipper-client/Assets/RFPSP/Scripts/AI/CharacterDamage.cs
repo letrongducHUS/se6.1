@@ -156,8 +156,10 @@ public class CharacterDamage : MonoBehaviour {
             
         }
     }
-        //damage NPC
-        public void ApplyDamage ( float damage, Vector3 attackDir, Vector3 attackerPos, Transform attacker, bool isPlayer, bool isExplosion, Rigidbody hitBody = null, float bodyForce = 0.0f ){
+
+    //damage NPC
+    [System.Obsolete]
+    public void ApplyDamage ( float damage, Vector3 attackDir, Vector3 attackerPos, Transform attacker, bool isPlayer, bool isExplosion, Rigidbody hitBody = null, float bodyForce = 0.0f ){
 
 		if (hitPoints <= 0.0f){
 			return;
@@ -276,10 +278,11 @@ public class CharacterDamage : MonoBehaviour {
 			}
 		}
 	}
-	
-	//this method called if the NPC dies and only has one capsule collider for collision
-	//which will be instantiated in place of the main NPC object (which is removed from the scene)
-	void Die() {
+
+    //this method called if the NPC dies and only has one capsule collider for collision
+    //which will be instantiated in place of the main NPC object (which is removed from the scene)
+    [System.Obsolete]
+    void Die() {
 
         
         RaycastHit rayHit;
@@ -293,7 +296,7 @@ public class CharacterDamage : MonoBehaviour {
 			AIComponent.NPCSpawnerComponent.UnregisterSpawnedNPC(AIComponent);//unregister NPC from spawner registry
 		}
 
-		AIComponent.agent.Stop();
+        AIComponent.agent.Stop();
 		AIComponent.StopAllCoroutines();
 	
 		// Replace NPC object with the dead body
