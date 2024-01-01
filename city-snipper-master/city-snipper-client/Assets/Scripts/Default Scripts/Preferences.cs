@@ -8,7 +8,6 @@ public class Preferences: MonoBehaviour
     private int _level = 1;
     private int _levelUnlock = 1;
     private int _score = 0;
-    private int _rateUs = 1;
     private int _SwordSelected = 1;
     private int _Sword1Unlock=0;
     private int _Sword2Unlock=0;
@@ -34,7 +33,6 @@ public class Preferences: MonoBehaviour
         _level = PlayerPrefs.GetInt("level", 1);
         _levelUnlock = PlayerPrefs.GetInt("levelUnlock", 1);
         _score = PlayerPrefs.GetInt("score", 0);
-        _rateUs = PlayerPrefs.GetInt("rateUs", 1);
         _control = PlayerPrefs.GetInt("control", 1);
         _SwordSelected = PlayerPrefs.GetInt("swordSelected", 1);
         _Sword1Unlock = PlayerPrefs.GetInt("sword1Unlock", 0);
@@ -46,7 +44,6 @@ public class Preferences: MonoBehaviour
         PlayerPrefs.SetInt("level", _level);
         PlayerPrefs.SetInt("levelUnlock", _levelUnlock);
         PlayerPrefs.SetInt("score", _score);
-        PlayerPrefs.SetInt("rateUs", _rateUs);
         PlayerPrefs.SetInt("control", _control);
         PlayerPrefs.SetInt("swordSelected", _SwordSelected);
         PlayerPrefs.SetInt("sword1Unlock", _Sword1Unlock);
@@ -101,12 +98,7 @@ public class Preferences: MonoBehaviour
         get{    return _score;    }
         set{   _score = value;  Save(); }
     }
-    
-    public int RateUs
-    {
-        get{    return _rateUs;    }
-        set{    _rateUs = value;    Save(); }
-    }
+
     /// controls setup
     public int Control
     {

@@ -288,9 +288,9 @@ public class DeductionMoney : MonoBehaviour
     {
         GiveGrenade(1);
     }
-    public void Ads()
-    {
-        AdsManager.instance.ShowRewardedVideo();
-    }
+    //public void Ads()
+    //{
+      //  AdsManager.instance.ShowRewardedVideo();
+    //}
 
 }
