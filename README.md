@@ -8,7 +8,7 @@ Lê Trọng Đức
 Bùi Hoàng Danh
 Nguyễn Đức Nhật
 Lê Văn Ngọc
-Nguyễn Minh 
+Nguyễn Minh Thảo 
 # 1. Mô tả game
 Cốt truyện:
 Một sát thủ về hưu đang an nhàn với vợ con thì bị của kẻ thù cũ trả thù. Vợ con bị giết và bị hôn mê 5 năm thì anh ta tỉnh lại. Chìm trong thù hận và quyết tâm trả thù, hắn ta đã sử dụng súng đạn, lựu đạn, dao.... và tất cả kỹ năng của mình đưa tất cả những kẻ đó phải chìm trong bể máu…
