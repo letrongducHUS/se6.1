@@ -13,13 +13,18 @@ public class Statistics : MonoBehaviour
     public Text scores3;
 
     [HideInInspector]
-    public int TotalEnmiies;
+    public int totalEnemies;
     [HideInInspector]
     public Text TotalEnemiess;
     [HideInInspector]
     public Text TotalEnemiess1;
     [HideInInspector]
     public Text TotalEnemiess2;
+
+    public int BodyShots = 0;
+    public Text BodyShot;
+    public Text BodyShot1;
+    public Text BodyShot2;
 
     [HideInInspector]
     public int KillEnemyCount = 0;
@@ -30,10 +35,10 @@ public class Statistics : MonoBehaviour
     [HideInInspector]
     public Text KilledEnemies2;
 
-    public int headshoottCount = 0;
-    public Text HeadShoots;
-    public Text HeadShoots1;
-    public Text HeadShoots2;
+    public int HeadShots = 0;
+    public Text HeadShot;
+    public Text HeadShot1;
+    public Text HeadShot2;
 
 
     [HideInInspector]
@@ -73,13 +78,16 @@ public class Statistics : MonoBehaviour
     void Start()
     {
         CoinScore();
-        Diamondsadd();
+        PlayerPrefs.SetInt("PreviousHeadShots", 0);
+        HeadShot.text = (HeadShots).ToString();
+        HeadShot1.text = (HeadShots).ToString();
+        HeadShot2.text = (HeadShots).ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void killingEnemies()
@@ -89,31 +97,44 @@ public class Statistics : MonoBehaviour
         KilledEnemies.text = KillEnemyCount.ToString();
         KilledEnemies1.text = KillEnemyCount.ToString();
         KilledEnemies2.text = KillEnemyCount.ToString();
+        BodyShot.text = BodyShots.ToString();
+        BodyShot1.text = BodyShots.ToString();
+        BodyShot2.text = BodyShots.ToString();
 
     }
 
     public void Headshots()
     {
-        headshoottCount += 1;
-        HeadShoots.text = headshoottCount.ToString();
-        HeadShoots1.text = headshoottCount.ToString();
-        HeadShoots2.text = headshoottCount.ToString();
-    }
+        PlayerPrefs.SetInt("PreviousHeadShots", HeadShots);
+        HeadShots += 1;
+        HeadShot.text = (HeadShots).ToString();
+        HeadShot1.text = (HeadShots).ToString();
+        HeadShot2.text = (HeadShots).ToString();
 
+    }
+    public void BodyHitsCount(int headShots)
+    {
+
+        BodyShots += 1;
+        BodyShots -= headShots;
+        BodyShot.text = BodyShots.ToString();
+        BodyShot1.text = BodyShots.ToString();
+        BodyShot2.text = BodyShots.ToString();
+    }
     public void CoinScore()
     {
         myscore = PlayerPrefs.GetInt("score");
         scores.text = myscore.ToString();
         scores1.text = myscore.ToString();
         scores2.text = myscore.ToString();
-      //  scores3.text = myscore.ToString();
+        //  scores3.text = myscore.ToString();
     }
     public void TotalEnemies()
     {
-        
-        TotalEnemiess.text = TotalEnmiies.ToString();
-        TotalEnemiess1.text = TotalEnmiies.ToString();
-        TotalEnemiess2.text = TotalEnmiies.ToString();
+
+        TotalEnemiess.text = totalEnemies.ToString();
+        TotalEnemiess1.text = totalEnemies.ToString();
+        TotalEnemiess2.text = totalEnemies.ToString();
 
     }
 
@@ -131,13 +152,11 @@ public class Statistics : MonoBehaviour
         PlayerPrefs.SetInt("diamond", Dimaoondscore);
 
         dimaonds = PlayerPrefs.GetInt("diamond");
+        //  DiamondScore.text = dimaonds.ToString();
+        //  DiamondScore1.text = dimaonds.ToString();
+        //  DiamondScore2.text = dimaonds.ToString();
 
-
-      //  DiamondScore.text = dimaonds.ToString();
-      //  DiamondScore1.text = dimaonds.ToString();
-      //  DiamondScore2.text = dimaonds.ToString();
-
-      //  Diamonndcurrentscore = 0;
+        //  Diamonndcurrentscore = 0;
 
 
     }
